@@ -7,7 +7,6 @@ export default function Home() {
   const [count, setCount] = useState(0);
   const newCount = 9;
   useEffect(() => {
-    newCount = 0;
     setCount(0);
   }, [count]);
   return (
